@@ -7,6 +7,10 @@ output: html_document
 x = 1
 y = 2
 x + y
+y + 2*x
+x + x
+y + y
+
 ```
 
 
