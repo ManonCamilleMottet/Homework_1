@@ -12,4 +12,32 @@ y + 2*x
 
 ```
 
+```{r}
+library("emojifont")
+emoji(search_emoji('peach'))
+```
+![Flash Crash](https://moneymorning.com/wp-content/blogs.dir/1/files/2013/04/Twitter-flash-crash-1280x720.png)
+
+```{r, echo=FALSE}
+4+2
+```
+```{r, warning=TRUE}
+emoji(search_emoji('economics'))
+```
+```{r, warning=FALSE}
+emoji(search_emoji('economics'))
+```
+
+Killer_group <- c("Conrad", "Hugo", "Manon")
+
+```{r}
+a <- 2
+```
+The value of $a$ is `r a`
+
+```{r}
+install.packages("devtools")
+devtools::install_github("hadley/emo")
+remo::ji("smile")`
+```
 
